@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.debug {
+    
+    border: 2px dashed yellow;
+}
+
+
+
+/* MAIN CONTAINER */
+
+.main {
+    flex-direction: column;
+}
+.popup_plans{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.281);
+    height: 100px;
+    width: 100vw;
+}
+.aside {
+    height: 100vh;
+    flex-basis: 227px;
+    
+    background-color: #000000;
+}
+
+.playlist__wrapper{
+    height: 100vh;
+    flex-grow: 1;
+    background-color: #141922;
+}
