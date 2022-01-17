@@ -155,6 +155,23 @@ ul {
 
   /* PLAYLIST WRAPPER  */
 
-  .playlist__wrapper {
-      padding: 120px 50px 50px 50px;
+  .playlist__wrapper .nav_bar .widget__menu{
+      padding-top: 120px ;
+      text-transform: uppercase;
+
+  }
+  
+  .playlist__wrapper .nav_bar .widget__menu li{
+      white-space: nowrap;
+      border-bottom:4px solid palegreen;
+  }
+
+  .playlist__wrapper .nav_bar .widget__menu li a{
+      border-bottom:4px solid palegreen;
+      width: 3px;
+  }
+
+  .nav_bar {
+      justify-content: center;
+      flex-grow: 1;
   }
