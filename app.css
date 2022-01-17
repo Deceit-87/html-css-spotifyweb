@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .flex {
@@ -46,6 +47,8 @@ ul {
 /* ASIDE  */
 
   .widget{
+    flex-direction: column;
+    justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -84,11 +87,7 @@ ul {
     display: block;
   }
   
-  .widget__title{
-    padding-left: 13px;
-    text-transform: uppercase;
-    font-size: 14px;
-  }
+  
   
   .fa-plus-square{
       font-size: 30px;
@@ -100,7 +99,7 @@ ul {
   }
 
   .menu-item .square-plus {
-      background-color:#ffffff ;
+      background-color:#d2d2d2ed;
       height: 40px;
       width: 40px;
       margin-right: 10px;
@@ -111,3 +110,13 @@ ul {
       font-weight: bold;
   }
 
+  .widget:last-child .widget__menu li:first-child{
+      font-size: 20px;
+  } 
+
+  h2{
+      padding-left:10px;
+      font-size:20px;
+      font-weight: 400;
+      color: #d2d2d2ed;
+  }
