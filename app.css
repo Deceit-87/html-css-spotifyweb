@@ -200,7 +200,7 @@ ul {
   }
 
 
-/* FIRST ROW */
+/*ROW */
 
 
 
@@ -237,8 +237,10 @@ ul {
     object-fit: cover;
     object-position: center;
   }
-  .play-list-item-description{
-      overflow: hidden;
+  .play-list-item-description h4 ,.play-list-item-description p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .play-list-item{
       text-align: center;
