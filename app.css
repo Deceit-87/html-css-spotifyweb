@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -50,9 +50,9 @@ ul {
 }
 /* MAIN CONTAINER */
 
-.main {
-    flex-direction: column;
-    height: 100vh;
+.main_container {
+    flex-direction: row;
+        height: 100vh;
 
 }
 .popup_plans{
@@ -62,19 +62,16 @@ ul {
     width: 100vw;
 }
 .aside {
+    width: ;
     flex-direction: column;
     padding-top: 100px;
-    height: 100vh;
-    /* flex-basis: 227px; */
+    
+    flex-basis: 227px;
     
     background-color: #000000;
 }
 
-.playlist__wrapper{
-   
-    background-color: #141922;
-    flex-direction: column;
-}
+
 
 
 /* ASIDE  */
@@ -165,7 +162,7 @@ ul {
   /* PLAYLIST WRAPPER  */
 
   .playlist__wrapper .nav_bar .widget__menu{
-      padding-top: 120px ;
+      padding-top: 80px ;
       text-transform: uppercase;
       padding-bottom: 20px;
       margin-bottom: 2px;
@@ -181,52 +178,72 @@ ul {
     color: #d2d2d2ed ;
  }
 
+ .playlist__wrapper .nav_bar .widget__menu li{
+    border-bottom: 2px solid transparent;
+    
 
+ }
 
 .playlist__wrapper .nav_bar .widget__menu li:hover a:after{
     content: ""; 
     display: block;
     margin: 0 auto;
     width: 50%; 
-    padding-top: 2px; 
+    
     border-bottom: 2px solid yellowgreen;
-    transition: 5s;
 
 }
 
   .nav_bar {
       justify-content: center;
+      height: 120px;
   }
 
 
 /* FIRST ROW */
 
-.play-list-wrapper {
+
+
+.playlist__wrapper{
     flex-grow: 1;
     padding: 20px 30px;
-
+    background-color: #141922;
+    flex-direction: column;
+    width: 100%;
+    overflow: scroll;
+   
 }
+
 
 .play-list{
     display: flex;
-    justify-content: flex-start;
-    gap:20px;
+    justify-content: start;
+
+
+    flex-grow: 1;
+    /* padding: 50px; */
 
   }
 
-  .play-list-item{
-  max-width: 19%;
-
+  
+  .play-list-item {
+      padding-right: 15px;
+      width:17%;
   }
   
-  
-  .card-header img{
+ .play-list-item img{
     aspect-ratio: 1/1;
     width: 100%;
     object-fit: cover;
     object-position: center;
   }
-  
-  .play-list-item{
-      flex-grow: 1;
+  .play-list-item-description{
+      overflow: hidden;
   }
+  .play-list-item{
+      text-align: center;
+  }
+  
+  
+
+ 
