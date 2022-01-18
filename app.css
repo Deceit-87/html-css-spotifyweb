@@ -52,7 +52,7 @@ ul {
 
 .main_container {
     flex-direction: row;
-        height: 100vh;
+        height: calc(100vh -90px);
 
 }
 .popup_plans{
@@ -216,6 +216,7 @@ ul {
     background-color: #141922;
     flex-direction: column;
     width: 100%;
+    padding-bottom: 150px;
     overflow: scroll;
    
 }
@@ -259,7 +260,7 @@ ul {
   .play-list-item-description h4 {
     color:#ffffff ;
     font-weight: 600;
-ì    }
+  }
 
     .row h3 {
         font-size: 25px;
@@ -269,13 +270,13 @@ ul {
     
 
 
-    /* INIZIO FOOTE MUSIC PLAYER  */
+    /* INIZIO FOOTER MUSIC PLAYER  */
 
     .player__wrapper{
         flex-direction: row;
         width: 100vw;
         height: 90px;
-        background-color: #282828;
+        background-color: #0f0f0f;
         justify-content: space-between;
         position: fixed;
         left:0;
@@ -298,15 +299,33 @@ ul {
     .icon_player{
     flex-direction: row;
     justify-content: space-between;
-    gap: 10px;
+    align-items: center;
+
     
     }
 
 
     .player_range{
-        width: 80%;
+        margin-top: 10px;
+        width: 60%;
         background-color: yellowgreen;
         height: 10px;
         align-self: center;
+        border-radius: 9999px;
 
+    }
+
+
+    /* ICON PLAYER  */
+
+    .icon_player i {
+        color: white;
+        font-size: 18px;
+        padding:0px 8px;
+        
+
+    }
+
+    .icon_player li:nth-child(3) i{
+        font-size: 30px;
     }
