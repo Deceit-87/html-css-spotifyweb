@@ -79,14 +79,14 @@ ul {
       white-space: nowrap;
     flex-direction: column;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    
     padding-left: 10px;
+    font-size: 12px;
     
   }
   
   .menu-item{
-    padding: 10px 10px;
+    padding: 5px 10px;
     align-items: center;
     color: #717171;
   
@@ -121,24 +121,23 @@ ul {
 
   .menu-item .square-plus {
       background-color:#d2d2d2ed;
-      height: 40px;
-      width: 40px;
+      height: 30px;
+      width: 30px;
       margin-right: 10px;
       font-size: 40px;
       align-items: center;
       justify-content: center;
       color: #000000;
-      font-weight: 600;
   }
 
   .widget:last-child .widget__menu li:first-child{
-      font-size: 20px;
+      font-size: 14px;
       
   } 
 
   h2{
       padding-left:10px;
-      font-size:20px;
+      font-size:15px;
       font-weight: 400;
       color: #d2d2d2ed;
   }
