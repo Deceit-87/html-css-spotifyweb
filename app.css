@@ -201,6 +201,13 @@ ul {
 
 /*ROW */
 
+.rounded {
+    border-radius: 9999px;
+}
+
+.row {
+    padding-bottom: 18px;
+}
 
 
 .playlist__wrapper{
