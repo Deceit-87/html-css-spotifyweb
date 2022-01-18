@@ -62,7 +62,6 @@ ul {
     width: 100vw;
 }
 .aside {
-    width: ;
     flex-direction: column;
     padding-top: 100px;
     
@@ -214,21 +213,13 @@ ul {
    
 }
 
-
 .play-list{
-    display: flex;
-    justify-content: start;
-
-
-    flex-grow: 1;
-    /* padding: 50px; */
-
-  }
-
-  
-  .play-list-item {
+    padding-top:40px;
+}
+.play-list-item {
       padding-right: 15px;
       width:17%;
+      text-align: center;
   }
   
  .play-list-item img{
@@ -242,10 +233,30 @@ ul {
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  .play-list-item{
-      text-align: center;
-  }
   
   
 
+  /* PLAY LIST DESCRIPTION  */
+  .play-list-item-description h4 {
+      padding-top: 18px;
+  }
+  .play-list-item-description p {
+      padding-bottom: 18px;
+  }
+  .row p{
+      padding-top: 5px;
+      font-size:12px ;
+      font-weight: 600;
+      color:#7b7e82;
+  }
+  .play-list-item-description h4 {
+    color:#ffffff ;
+    font-weight: 600;
+ì    }
+
+    .row h3 {
+        font-size: 25px;
+        color: #ffffff;
+    }
  
+    
