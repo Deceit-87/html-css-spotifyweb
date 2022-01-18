@@ -194,7 +194,8 @@ ul {
 
   .nav_bar {
       justify-content: center;
-      height: 120px;
+      height: 140px;
+      padding-bottom: 150px;
   }
 
 
@@ -259,3 +260,46 @@ ul {
     }
  
     
+
+
+    /* INIZIO FOOTE MUSIC PLAYER  */
+
+    .player__wrapper{
+        flex-direction: row;
+        width: 100vw;
+        height: 90px;
+        background-color: #282828;
+        justify-content: space-between;
+        position: fixed;
+        left:0;
+        bottom:0;
+    }
+
+
+    .player{
+    width: 50%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    }
+
+
+    .info_wrapper , .widget_footer{
+        width: 25%;
+    }
+
+    .icon_player{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    
+    }
+
+
+    .player_range{
+        width: 80%;
+        background-color: yellowgreen;
+        height: 10px;
+        align-self: center;
+
+    }
