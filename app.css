@@ -14,7 +14,7 @@ img{
 
 .debug {
     
-    border: 2px dashed yellow;
+    /* border: 2px dashed yellow; */
 }
 
 ul {
@@ -63,6 +63,10 @@ ul {
 .hover_play i{
     color: white;
 }
+
+
+
+
 /* POP UP HEADER  */
 
 .popup_plans{
@@ -74,11 +78,12 @@ ul {
    
 }
 .logo-big svg{
+    position: relative;
     padding-bottom: 20ppx;
     padding-right: 20px;
     padding-left: 20px;
     
-    width: 190px;
+    width: 180px;
 }
     .logo-big{
         padding-bottom: 40px;
@@ -386,6 +391,7 @@ ul {
         flex-direction: row;
         width: 100%;
         height: 90px;
+       
         background-color: #282828;
         justify-content: space-between;
         position: sticky;
@@ -423,8 +429,73 @@ ul {
 
     }
 
+                    /* INFO ALBUM  */
 
-    /* ICON PLAYER  */
+
+    .info_wrapper {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex-basis: 230px;
+        flex-shrink: 0;
+        padding: 10px;
+    }
+    .album {
+        display: flex;
+        gap:15px;
+        align-items: center;
+        flex-grow: 1;
+        
+    }
+    .album_thumb {
+       width: 42px;
+       height: 42px;
+       
+    }
+    .album_info {
+        font-size: 12px;
+
+    }
+    .album_title {
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .song_title{
+        color: #808080;
+    }
+ 
+    .album_controls{
+        color: #808080;
+    }
+
+
+
+
+
+
+
+
+
+    /* TOOLBAR TOOLS  */
+
+    .tools{
+        display: flex;
+        flex-basis: 227px;
+        list-style: none;
+        gap: 10px;
+        align-items: center;
+        
+    }
+
+
+
+                        /* ICON PLAYER  */
+
+
+
+
 
     .icon_player i {
         color: white;
@@ -441,46 +512,6 @@ ul {
 
 
 
-    .info_wrapper {
-        display: flex;
-        gap: 15px;
-        align-items: center;
-        flex-basis: 230px;
-        flex-shrink: 0;
-    }
-    .album {
-        display: flex;
-        gap:15px;
-        align-items: center;
-        
-    }
-    .album_thumb {
-       width: 42px;
-       height: 42px;
-       display: block;
-    }
-
-    .info_wrapper{
-
-    }
-    .album_info {
-        font-size: 12px;
-
-    }
-    .album_title {
-        font-size: 13px;
-        font-weight: 700;
-    }
-
-
-    /* TOOLBAR TOOLS  */
-
-    .tools{
-        display: flex;
-        flex-basis: 227px;
-        list-style: none;
-        gap: 10px;
-        align-items: center;
-    }
+    
 
 
