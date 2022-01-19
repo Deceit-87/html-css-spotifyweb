@@ -23,16 +23,46 @@ ul {
 
 
 
-/* HOVER EFFECT  */
+/* HOVER and EFFECT  */
 
 
 .hover_scale:hover{
     scale: 1.2;
 }
+.hover_opacity:hover{
+    filter: contrast(120%);
+    opacity: 60%;
+  }
 
-.hover_
 
+   
+    
+    
+.img-wrapper{
+    width: 100%;
+    position: relative;
+}
+.img-wrapper:hover .hover_opacity{
+    filter: contrast(120%);
+    opacity: 60%;
+}
+.img-wrapper:hover .hover_play{
+    visibility: visible;
+}
 
+.hover_play{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+}
+
+.hover_play i{
+    color: white;
+}
 /* POP UP HEADER  */
 
 .popup_plans{
