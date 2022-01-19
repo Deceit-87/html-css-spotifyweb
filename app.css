@@ -65,7 +65,7 @@ ul {
     flex-direction: column;
     padding-top: 100px;
     
-    flex-basis: 227px;
+   flex-basis:  227px;
     
     background-color: #000000;
 }
@@ -78,7 +78,7 @@ ul {
   .widget{
       white-space: nowrap;
     flex-direction: column;
-    justify-content: center;
+    
     padding-right: 10px;
     padding-left: 10px;
     font-size: 12px;
@@ -159,6 +159,13 @@ ul {
 
 
   /* PROFILE SIDEBAR */
+
+  .profile ul{
+    background-color: black;
+    
+
+  }
+
   .profile .menu-item p {
     padding-left: 10px;
   }
@@ -185,10 +192,10 @@ ul {
    flex-direction: column;
 }
 .profile{
-    position: sticky;
-    bottom: 100px;
-    align-self: flex-start;
-    background-color: black;
+   
+    
+   
+    
     
 }
 
@@ -281,6 +288,9 @@ ul {
   
 
   /* PLAY LIST DESCRIPTION  */
+
+
+
   .play-list-item-description h4 {
       padding-top: 18px;
   }
