@@ -39,7 +39,7 @@ ul {
     
     
 .img-wrapper{
-    width: 100%;
+    max-width: 100%;
     position: relative;
 }
 .img-wrapper:hover .hover_opacity{
@@ -257,15 +257,7 @@ ul {
 .profile .widget__menu__sidebar{
    flex-direction: column;
 }
-.download{
-    background-color: none
-    ;
-   
-    
-   
-    
-    
-}
+
 
   /* PLAYLIST WRAPPER  */
 
@@ -387,7 +379,7 @@ ul {
 
     /* INIZIO FOOTER MUSIC PLAYER  */
 
-    .player__wrapper{
+    .toolbar{
         flex-direction: row;
         width: 100%;
         height: 90px;
@@ -409,30 +401,13 @@ ul {
     }
 
 
-    .icon_player{
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+   
 
-    
-    }
-
-
-    .player_range{
-        flex-grow: 1;
-        margin-top: 10px;
-        flex-basis: 150px;
-        background-color: yellowgreen;
-        height: 4px;
-        align-self: center;
-        border-radius: 9999px;
-
-    }
 
                     /* INFO ALBUM  */
 
 
-    .info_wrapper {
+    .music-box {
         display: flex;
         gap: 15px;
         align-items: center;
@@ -491,27 +466,73 @@ ul {
 
 
 
-                        /* ICON PLAYER  */
+                        /* PLAYER */
 
-
-
-
-
-    .icon_player i {
+    .player-wrapper{
         color: white;
-        font-size: 18px;
-        padding:0px 8px;
+
+        flex-basis: 40%;
+    }
+
+    .player-controls{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        font-size: 20px;
+        justify-content: center;
         
-
-    }
-
-    .icon_player li:nth-child(3) i{
-        font-size: 30px;
-    }
+        }
 
 
 
 
     
 
+    .player-controls .control_play{
+        font-size: 34px;
+    }
 
+
+
+    .player_timeline{
+        display: flex;
+        align-items: center;
+        gap:20px;
+    }
+    
+    .timeline_slider{
+        flex-basis: 150px;
+        background-color: #00000033;
+        flex-grow: 1;
+        position: relative;
+    }
+
+    .timeline__current-time{
+        width: 35%;
+        background-color: white;
+        height: 4px;
+    }
+
+    .timeline__control{
+         width: 13px;
+         height: 13px;
+         border-radius: 9999px;
+         background-color: #ddd;
+         cursor: pointer;
+         position: absolute;
+         left: 35%;
+         top: 50%;
+        transform: translate(-50%,-50%); 
+        display: none;
+        }
+
+
+        .timeline_slider:hover .timeline__control{
+            display: block;
+             
+        }
+
+        .timeline_slider:hover .timeline__current-time{
+            background-color: lawngreen;
+        }
