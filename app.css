@@ -23,7 +23,7 @@ ul {
 /* POP UP HEADER  */
 
 .popup_plans{
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     color: white;
     width: 100%;
@@ -31,11 +31,18 @@ ul {
    
 }
 .logo-big svg{
+    padding-bottom: 20ppx;
     padding-right: 20px;
     padding-left: 20px;
-    fill:#ffffff!important;
+    
     width: 190px;
 }
+    .logo-big{
+        padding-bottom: 40px;
+        
+    }
+    
+
 
 .plan-link a{
     white-space: nowrap;
@@ -52,6 +59,7 @@ ul {
 
 .main_container {
     flex-direction: row;
+    height: calc(100vh - 90px);
         
 
 }
@@ -63,10 +71,10 @@ ul {
 }
 .aside {
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 20px;
     
-   flex-basis:  227px;
-    
+   flex-basis:  230px;
+    flex-shrink: 0;
     background-color: #000000;
 }
 
@@ -157,6 +165,16 @@ ul {
     color: #d2d2d2ed;
   }
 
+    /* ADD PLAYLIST  */
+
+
+    .add-playlist{
+        flex-grow: 1;
+        overflow-y: scroll;
+    }
+
+
+
 
   /* PROFILE SIDEBAR */
 
@@ -191,7 +209,9 @@ ul {
 .profile .widget__menu__sidebar{
    flex-direction: column;
 }
-.profile{
+.download{
+    background-color: none
+    ;
    
     
    
@@ -260,6 +280,7 @@ ul {
     width: 100%;
     padding-bottom: 150px;
     overflow: scroll;
+    padding-top: 40px;
     
    
 }
@@ -322,7 +343,7 @@ ul {
         flex-direction: row;
         width: 100%;
         height: 90px;
-        background-color: #0f0f0f;
+        background-color: #282828;
         justify-content: space-between;
         position: sticky;
         left:0;
@@ -332,16 +353,12 @@ ul {
 
 
     .player{
-    width: 50%;
+    flex-basis: 60%;
    flex-direction: column;
    align-items: center;
    justify-content: center;
     }
 
-
-    .info_wrapper , .widget_footer{
-        width: 25%;
-    }
 
     .icon_player{
     flex-direction: row;
@@ -353,10 +370,11 @@ ul {
 
 
     .player_range{
+        flex-grow: 1;
         margin-top: 10px;
-        width: 60%;
+        flex-basis: 150px;
         background-color: yellowgreen;
-        height: 10px;
+        height: 4px;
         align-self: center;
         border-radius: 9999px;
 
@@ -375,4 +393,49 @@ ul {
 
     .icon_player li:nth-child(3) i{
         font-size: 30px;
+    }
+
+
+
+
+    .info_wrapper {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex-basis: 230px;
+        flex-shrink: 0;
+    }
+    .album {
+        display: flex;
+        gap:15px;
+        align-items: center;
+        
+    }
+    .album_thumb {
+       width: 42px;
+       height: 42px;
+       display: block;
+    }
+
+    .info_wrapper{
+
+    }
+    .album_info {
+        font-size: 12px;
+
+    }
+    .album_title {
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+
+    /* TOOLBAR TOOLS  */
+
+    .tools{
+        display: flex;
+        flex-basis: 227px;
+        list-style: none;
+        gap: 10px;
+        align-items: center;
     }
