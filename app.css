@@ -20,6 +20,19 @@ img{
 ul {
     list-style: none;
 }
+
+
+
+/* HOVER EFFECT  */
+
+
+.hover_scale:hover{
+    scale: 1.2;
+}
+
+.hover_
+
+
 /* POP UP HEADER  */
 
 .popup_plans{
@@ -51,9 +64,9 @@ ul {
     border: 2px solid #d2d2d2ed;
     color: currentColor;
     text-decoration: none;
-   padding:10px 50px 10px 50px;
-      margin-right: 10px;
-      margin-left: 16px;
+   padding:10px 30px 10px 30px;
+      margin-right: 20px;
+      margin-left: 20px;
 }
 /* MAIN CONTAINER */
 
@@ -439,3 +452,5 @@ ul {
         gap: 10px;
         align-items: center;
     }
+
+
