@@ -35,20 +35,20 @@
 </div>
     <div class="widget flex">
         <ul class="widget__menu__sidebar debug">
-          <li class="menu-item flex ">
-            <div class="icon">
+          <li class="menu-item hover flex active-sidebar ">
+            <div class="icon hover">
               <img src="./img/home.svg" alt="">
             </div>
             <p>Home</p>
           </li>
-          <li class="menu-item flex">
+          <li class="menu-item hover flex">
             <div class="icon">
                 <img src="./img/search.svg" alt="">
             </div>
             <p>Cerca</p>
           </li>
-          <li class="menu-item flex">
-            <div class="icon">
+          <li class="menu-item hover flex">
+            <div class="icon hover">
               <img src="./img/libreria.svg" alt="">
             </div>
             <p>La tua libreria</p>
@@ -57,34 +57,36 @@
       </div>
       <div class="widget flex add-playlist">
       <h2>PLAYLIST</h2>
-      <li class="menu-item flex">
-        <div class="square-plus flex">
+      <div class="hover">
+      <li class="menu-item hover flex">
+        <div class="square-plus hover flex">
             <span>+</span>
         </div>
         <p>Crea Playlist</p>
+      </div>
       </li>
         <ul class="widget__menu__sidebar debug">
          
-          <li class="menu-item">
+          <li class="menu-item hover">
            <p>Nome Playlist</p>     
           </li>
-          <li class="menu-item">
+          <li class="menu-item hover">
            <p>Nome Playlist</p>
           </li>
-          <li class="menu-item">
+          <li class="menu-item hover">
            <p>Nome Playlist</p> 
           </li>
-          <li class="menu-item">
+          <li class="menu-item hover">
             <p>Nome Playlist</p>     
            </li>
-           <li class="menu-item">
+           <li class="menu-item hover">
             <p>Nome Playlist</p>
            </li>
-           <li class="menu-item">
+           <li class="menu-item hover">
             <p>Nome Playlist</p> 
            </li>
             </li>
-            <li class="menu-item">
+            <li class="menu-item hover">
             <p>Nome Playlist</p> 
             </li>
         </ul>
@@ -93,7 +95,7 @@
       <div class="widget profile flex debug">
           
               
-                 <div class="menu-item download flex"> 
+                 <div class="menu-item download flex hover"> 
                   <i class="far fa-arrow-alt-circle-down"></i>
                   <p>Installa app</p>
                 </div> 
@@ -119,22 +121,22 @@
                   <div class="nav_bar flex">
                     <ul class="widget__menu flex ">
                       
-                      <li class="menu-item">
+                      <li class="menu-item active">
                         <a href="file:///Users/manuelfreund/git/html-css-spotifyweb/index.html">in evidenza</a>     
                       </li>
-                      <li class="menu-item">
+                      <li class="menu-item hover">
                         <a>podcast</a>
                       </li>
-                      <li class="menu-item">
+                      <li class="menu-item hover">
                         <a>classifiche</a> 
                       </li>
-                      <li class="menu-item">
+                      <li class="menu-item hover">
                         <a>generi e mood</a>     
                       </li>
-                      <li class="menu-item">
+                      <li class="menu-item hover">
                         <a>nuove uscite</a>
                       </li>
-                      <li class="menu-item">
+                      <li class="menu-item hover">
                         <a>scopri</a>
                       </li>
                       
@@ -339,6 +341,7 @@
 
       
     <div class=" music-box debug">
+
       <div class="album">
 
         <figure class="album_thumb">
@@ -349,12 +352,17 @@
           <h4 class="album_title">Sinister</h4>
            <p class="song_title">Brano Nome</p> 
         </div>
+      
       </div>
 
 
-      <div class="album_controls">
-        <i class="far fa-heart"></i>
-        <i class="far fa-folder"></i>
+      <div class="album-controls">
+         
+           <i class="hover far fa-heart"></i>
+        
+        
+           <i class="hover far fa-folder"></i>
+        
       </div>
     </div>
 
@@ -395,7 +403,7 @@
 
                 </div>
                 <div class="timeline__control">
-                  
+
                 </div>
             </div>
             <span>
@@ -411,17 +419,31 @@
 
 
 
-    <div class=" tools debug">
-        <li class=" fas fa-list-ul">
-           
-        </li>
-        <li class="fas fa-desktop">
-          
-        </li>
-        <li class="fas fa-volume-up">
-          
-        </li>
-    </div>
+    
+      <ul class="tools ">
+          <li> 
+            <i class="fas fa-list-ul"></i>
+            
+          </li>
+          <li> 
+            <i class="fas fa-desktop"></i>
+            
+          </li>
+          <li class="volume-control">
+            <i class="fas fa-volume-up"></i>
+            
+         
+              <div class="timeline_slider">
+                <div class="timeline__current-time ">
+
+                </div>
+                <div class="timeline__control">
+
+                </div>
+              </div> 
+           </li>
+      </ul>
+   
       
     </footer>
 </body>
