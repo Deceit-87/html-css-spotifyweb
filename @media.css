@@ -1,0 +1,47 @@
+@media screen and (max-width: 878px) 
+{
+
+
+        .play-list  .play-list-item
+   {
+             min-width: calc(97%/4);}
+
+        .row .play-list {
+            flex-wrap: nowrap;
+            gap: 1%;
+            justify-content: flex-start;
+            padding-top: 20px;
+            overflow: scroll;
+          }     
+
+         .row h3 {
+            font-size: 2vw !important;
+           
+          }
+          .playlist__wrapper .nav_bar .widget__menu {
+            
+            flex-wrap: wrap;
+          }
+
+          .playlist__wrapper .row {
+              padding-top:40px;
+          }
+}
+    
+/* @media screen and (max-width: 878px) 
+{
+
+
+        .play-list  .play-list-item
+   {
+        min-width: calc(97%/4);}
+
+        .row .play-list {
+            flex-wrap: nowrap;
+            gap: 1%;
+            justify-content: flex-start;
+            padding-top: 20px;
+            overflow: scroll;
+          }     
+
+} */
