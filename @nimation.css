@@ -1,0 +1,36 @@
+.timeline_slider:hover .play {
+   animation: player_forward 10s linear 1 ;
+  
+}
+  .player_timeline:hover .play_dot{
+    animation: player_dot_forward 10s linear 1 ;
+
+  }
+
+  @keyframes player_forward {
+    0% { width: 35%; 
+        
+    }
+    100%{
+        width: 100%;
+       
+    }
+
+
+}
+  @keyframes player_dot_forward {
+    0% {
+        left: 35%;
+        
+        
+    }
+    100% {
+        left: 100%;
+        
+       
+    }
+
+
+  }
+
+  .timer:hover
