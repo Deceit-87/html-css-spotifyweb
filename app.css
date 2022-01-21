@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
- 
+ .logo-small {
+     display: contents;
+ }
 img{
     width: 100%;
 }
@@ -111,6 +113,11 @@ margin-right: 16px;
     width: 100%;
 
    
+}
+.logo-small{
+    width: 30px;
+    margin: 0 auto;
+    position: relative;
 }
 .logo-big svg{
     position: relative;
