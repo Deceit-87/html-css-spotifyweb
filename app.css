@@ -107,6 +107,7 @@ margin-right: 16px;
 /* POP UP HEADER  */
 
 .popup_plans{
+    z-index: 9999;
     justify-content: end;
     align-items: center;
     color: white;
